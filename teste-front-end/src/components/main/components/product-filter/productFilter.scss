@@ -1,0 +1,26 @@
+.product-filter-list {
+  width: 100%;
+  display: flex;
+}
+
+.product-filter-list-item {
+
+  button {
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #BDBDBD;
+    color: #3B3B3B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 12px 72px;
+    max-height: 40px;
+    white-space: nowrap;
+    cursor: pointer;
+
+    .active {
+      font-weight: 700;
+      color: #3442B5;
+    }
+  }
+}
