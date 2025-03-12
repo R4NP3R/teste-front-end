@@ -1,0 +1,34 @@
+.shop-section-list {
+  display: flex;
+  gap: 42px;
+  width: 1160px;
+  margin-top: 40px;
+  margin-bottom: 90px;  
+}
+
+.shop-section-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+
+  p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4E4E4E;
+  }
+}
+
+
+.section-style {
+  background-color: #F4F4F4;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 34px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
