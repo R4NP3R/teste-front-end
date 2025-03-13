@@ -3,6 +3,12 @@ main {
   padding-top: 390px;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .principal-image {
   position: absolute;
   min-width: 100%;
@@ -10,5 +16,9 @@ main {
   left: -80px;
 }
 
+.partners-division {
+  display: flex;
+  gap: 14px;
+}
 
 

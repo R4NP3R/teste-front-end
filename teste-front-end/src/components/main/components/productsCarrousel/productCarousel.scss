@@ -1,0 +1,105 @@
+.products-carousel {
+  width: 1270px;
+  height: 613px;
+  position: relative;
+}
+
+.carousel-button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.left {
+  top: 250px;
+  left: -48px;
+}
+
+.right {
+  top: 250px;
+  right: -48px;
+}
+
+.product-list {
+  display: flex;
+  min-width: 1330px;
+  gap: 18px;
+  width: 100%;
+  padding: 0px 18px;
+  padding-top: 24px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.product-list-item {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+  min-width: 304px;
+  height: 500px;
+  padding: 32px 12px;
+  border-radius: 10px;
+  img {
+    height: 240px;
+  }
+}
+
+.product-list-item-title {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.product-list-item-price {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.product-list-item-price-discount {
+  margin-top: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3F3F40;
+}
+
+.product-list-item-price-installment {
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3F3F40;
+}
+
+.product-list-item-free-shipping {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3442B5;
+}
+
+.product-list-button {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px 0px;
+  border-radius: 4px;
+  border: none;
+  background-color: #3442B5;
+  color: white;
+  cursor: pointer;
+
+  span {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
