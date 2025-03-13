@@ -1,16 +1,17 @@
 import './productsSection.scss';
 
 import { useEffect, useState } from "react";
-import { Partners } from "../partners/partners"
-import { ProductFilter } from "../product-filter/productFilter"
-import { IProductsCarousel, ProductCarousel } from "../productsCarrousel/productsCarousel";
-import { SectionTitle } from "../sectionTitle/sectionTitle"
+import { Partners } from "./components/partners/partners"
+import { ProductFilter } from "./components/product-filter/productFilter"
+import { IProductsCarousel, ProductCarousel } from "./components/products-carrousel/productsCarousel";
+import { SectionTitle } from "../main/components/sectionTitle/sectionTitle"
 
 interface IProductsSectionProps {
   productFilter: boolean;
+  withPartners: boolean;
 }
 
-export const ProductsSection = ({productFilter}:IProductsSectionProps ) => {
+export const ProductsSection = ({productFilter, withPartners}:IProductsSectionProps ) => {
   const [data, setData] = useState<IProductsCarousel>();
 
   useEffect(() => {
@@ -21,7 +22,7 @@ export const ProductsSection = ({productFilter}:IProductsSectionProps ) => {
 
   return (
       <section className='products-section'>
-        <SectionTitle title='Produtos Relacionados'/>
+        <SectionTitle withBars title='Produtos Relacionados'/>
         {productFilter 
         ? 
         <ProductFilter productType={[{name: 'celular'},{name: 'acessórios'},{name: 'tablets'},{name: 'notebooks'},{name: 'tvs'},{name: 'ver todos'}]}/> 
@@ -31,10 +32,13 @@ export const ProductsSection = ({productFilter}:IProductsSectionProps ) => {
         
         
         {data && <ProductCarousel products={data?.products}/>}
+        {withPartners 
+        && 
         <div className='partners-division'>
         <Partners/>
         <Partners/>
-        </div>        
+        </div>   
+        }     
     </section>
   )
   

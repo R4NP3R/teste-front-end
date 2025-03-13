@@ -11,7 +11,7 @@ export const ProductFilter = ({productType}: IProductfilterProps) => {
     <ul className="product-filter-list">
       {productType.map(product => (
         <li className="product-filter-list-item" key={product.name}>
-          <button><span>{product.name}</span></button>
+          <button>{product.name}</button>
         </li>
       ))}      
     </ul>

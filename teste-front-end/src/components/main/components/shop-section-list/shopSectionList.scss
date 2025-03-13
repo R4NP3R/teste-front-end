@@ -16,8 +16,15 @@
     font-size: 14px;
     font-weight: 600;
     color: #4E4E4E;
+
+    
+  }
+
+  .active {
+    color: #3019B2;
   }
 }
+
 
 
 .section-style {
@@ -32,3 +39,8 @@
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
 }
+
+.white-bg {
+  background-color: #fff;
+}
+

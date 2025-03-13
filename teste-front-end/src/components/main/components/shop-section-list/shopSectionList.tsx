@@ -13,10 +13,10 @@ export const ShopSectionList = () => {
   return (
     <ol className='shop-section-list'>        
           <li className='shop-section-list-item'>
-            <figcaption className='section-style'>
+            <figcaption className='section-style white-bg'>
               <img src={computer} alt="" />
             </figcaption>
-              <p>Tecnologia</p>
+              <p className='active'>Tecnologia</p>
           </li>
           <li className='shop-section-list-item'>
             <figcaption className='section-style'>
