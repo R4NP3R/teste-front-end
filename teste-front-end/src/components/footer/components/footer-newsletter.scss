@@ -1,0 +1,78 @@
+
+.newsletter-container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 40px 0px;
+  display: flex;
+  gap: 124px;
+}
+
+.newsletter-inscription {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 162px;
+  background-color: #271C47;
+}
+
+.newsletter-inscription-invitation {
+  color: #fff;
+
+  h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+}
+
+.newsletter-inscription-form-elements {
+  display: flex;
+  gap: 8px;
+
+  input {
+    padding: 12px 0px;
+    padding-right: 31px;
+    padding-left: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #E7E7E7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #676767;
+  }
+
+  button {
+    padding: 14px 40px;
+    border-radius: 8px;
+    background-color: #F7CA11;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 12px;
+    cursor: pointer;
+  }
+}
+
+.newsletter-checkbox-terms {
+  margin-top: 8px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
