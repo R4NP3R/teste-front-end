@@ -1,0 +1,23 @@
+.footer-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  
+  li, h3 {
+    font-family: "Work Sans", sans-serif;
+    color: rgba(34, 34, 34, 0.71);
+  }
+}
+
+.footer-info-list-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 4px;
+}
+
+.footer-info-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}

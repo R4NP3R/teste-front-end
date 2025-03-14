@@ -4,7 +4,7 @@ export const FooterNewsLetter = () => {
 
   return (
       <div className="newsletter-inscription">
-        <div className="newsletter-container">
+        <div className="newsletter-container container">
           <div className="newsletter-inscription-invitation">
             <h3>Inscreva-se na nossa newsletter</h3>
             <p>Assine a nossa newsletter e receba as novidades e conteúdos exclusivos da Econverse.</p>

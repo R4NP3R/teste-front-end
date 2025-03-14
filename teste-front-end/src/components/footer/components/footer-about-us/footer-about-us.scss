@@ -1,0 +1,54 @@
+.footer-about-us {
+  background-color: #F4F4F4;
+  position: absolute;
+  width: 100%;
+}
+
+.separator {
+  border: 1px solid rgba(40, 40, 40, 0.18);
+  height: 198px;
+}
+
+.footer-about-us-box {
+  display: flex;
+  min-height: 282px;
+  align-items: center;
+}
+
+.footer-about-us-social-media {
+  width: 354px;
+  margin-right: 90px;
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.footer-about-us-social-media-logo {
+  height: 48px;
+  margin-bottom: 18px;
+}
+
+.footer-about-us-social-media-list {
+  display: flex;
+  margin-top: 28px;
+  gap: 26px;
+}
+
+.footer-about-us-info {
+  margin-left: 90px;
+  display: flex;
+  gap: 100px;
+}
+
+.copyright {
+  display: flex;
+  padding: 14px 0px;
+  justify-content: center;
+  margin: 0px auto;
+  background-color: #fff;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 300;
+}
