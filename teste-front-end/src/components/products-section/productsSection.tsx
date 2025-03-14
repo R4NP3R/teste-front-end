@@ -15,7 +15,7 @@ export const ProductsSection = ({productFilter, withPartners}:IProductsSectionPr
   const [data, setData] = useState<IProductsCarousel>();
 
   useEffect(() => {
-    fetch('../../../celulares.json')
+    fetch('/public/celulares.json')
     .then((res) => res.json())
     .then(setData)
   }, [])
