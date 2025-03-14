@@ -16,7 +16,6 @@ export const Main = () => {
         <p className="principal-image-description"><span>50% Off</span> nos produtos</p>
         <button className="principal-image-button">Ver Produto</button>
       </div>
-      {/* <img className='principal-image' src={blackFridayImg} alt="loja de roupas com black friday" /> */}
       <ShopSectionList/>
       <ProductsSection withPartners productFilter/>
       <ProductsSection withPartners productFilter={false}/>
