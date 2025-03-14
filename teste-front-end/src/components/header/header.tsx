@@ -22,11 +22,11 @@ export const Header = () => {
         </li>
         <li className='information'>
           <img src={truck} alt="" />          
-          <p>Frete grátis <span>acima de R$ 200</span></p>
+          <p><span>Frete grátis</span> acima de R$ 200</p>
         </li>
         <li className='information'>
           <img src={creditCard} alt="" />          
-          <p>Parcele <span>suas compras</span></p>
+          <p><span>Parcele</span> suas compras</p>
         </li>
       </ul>
       <div className='header-bar'>        
@@ -36,10 +36,10 @@ export const Header = () => {
           <img src={magnifyingGlass} alt="" />
           </div>
           <ul className='user-information'>
-            <li><img src={group} alt="" /></li>
-            <li><img src={heart} alt="" /></li>
-            <li><img src={userCircle} alt="" /></li>
-            <li><img src={shoppingCart} alt="" /></li>
+            <li className='user-information-item'><img src={group} alt="" /></li>
+            <li className='user-information-item'><img src={heart} alt="" /></li>
+            <li className='user-information-item'><img src={userCircle} alt="" /></li>
+            <li className='user-information-item'><img src={shoppingCart} alt="" /></li>
           </ul>    
       </div>
       <nav className='header-navigation'>

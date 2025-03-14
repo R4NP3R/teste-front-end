@@ -78,6 +78,10 @@ header {
   gap: 32px;
 }
 
+.user-information-item {
+  cursor: pointer;
+}
+
 .header-navigation {
   padding: 10px 70px;
   box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
