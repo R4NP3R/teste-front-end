@@ -6,7 +6,7 @@ export const Footer = () => {
 
 
   return (
-    <footer className="site-footer">
+    <footer id='footer' className="site-footer">
       <FooterNewsLetter/>
       <div className='separator' />
       <FooterAboutUs/>
