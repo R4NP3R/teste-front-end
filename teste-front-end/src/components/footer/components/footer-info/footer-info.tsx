@@ -16,7 +16,7 @@ export const FooterInfo = ({title, infos}: IFooterInfoProps) => {
       {infos.map(infos => {
         const {info} = infos
         return (
-          <a href="#footer">
+          <a key={info} href="#footer">
             <li className="footer-info-list-item" key={info}>{info}</li>
           </a>
         )
