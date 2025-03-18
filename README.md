@@ -28,14 +28,26 @@ cd DIRETÓRIO_DO_PROJETO
 
 ```bash
 npm i
-```
+```  
 
-  
-
-## Para rodar o projeto na sua maquina
+## Para rodar o projeto na sua maquina em modo desenvolvedor ultilize:
 
 Para iniciar o projeto em modo de desenvolvimento, execute:
 
 ```bash
 npm run dev
+```
+
+## Para rodar o projeto compilado na sua maquina siga esses passos:
+
+Para buildar o projeto, execute:
+
+```bash
+npm run build
+```
+
+Para iniciar o projeto em modo de produção, execute:
+
+```bash
+npm run preview
 ```
